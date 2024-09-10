@@ -5,4 +5,5 @@
   position: relative;
   overflow: hidden;
   cursor: none;
+  user-select: none;
 }
