@@ -1,0 +1,18 @@
+.content {
+  display: inline-block;
+  position: relative;
+  padding: 20px;
+  color: rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  opacity: 0; /* 初期状態では非表示 */
+  transition: opacity 0.3s ease-in-out; /* フェードイン・アウトのトランジション */
+  cursor: none; /* マウスカーソルを非表示 */
+}
+
+.content.visible {
+  opacity: 1; /* ホバーされたときは表示 */
+}
+
+.content.hidden {
+  opacity: 0; /* ホバーされていないときは非表示 */
+}

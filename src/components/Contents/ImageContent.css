@@ -1,0 +1,17 @@
+.image-content {
+  display: inline-block;
+  position: relative;
+  padding: 20px;
+  color: rgba(0, 0, 0, 0.2);
+  opacity: 0; /* 初期状態では非表示 */
+  transition: opacity 0.3s ease-in-out; /* フェードイン・アウトのトランジション */
+  cursor: none; /* マウスカーソルを非表示 */
+}
+
+.image-content.visible {
+  opacity: 0.1;
+}
+
+.image-content.hidden {
+  opacity: 0;
+}
